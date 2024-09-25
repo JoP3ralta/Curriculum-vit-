@@ -5,7 +5,7 @@
     --text-light: #292929;
     --white: #fff;
     max-width: 1200px;
-    --header-font: "Bebas Neue", sans-serif;
+    --header-font: "Times New Roman", Times, serif;
 }
 
 * {
@@ -26,7 +26,6 @@ a {
 }
 
 body {
-    font-family: "poppins", sans-serif;
     background-color: #eae2cf;
 }
 
@@ -85,17 +84,17 @@ li a {
 
 
 footer {
-    padding: 2rem;
-    width: 100%;
-
+    padding: 2.2rem;
+    width: 116%;
     background-image: linear-gradient(to right, #007263, #00e0c2);
     text-align: center;
     color: white;
+    margin-top: 25%;
 }
 
 .embaixo li {
     display: flex;
-    padding-bottom: 1%;
+
     margin-left: 2%;
 }
 

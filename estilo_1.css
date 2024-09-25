@@ -1,49 +1,22 @@
 @charset "utf-8";
 
 
+* {
+    font-size: 10;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 body {
-    font-family: 'Times New Roman', Times, serif;
     background-color: #eae2cf;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.meio {
-
-    display: flex;
-    float: left;
-    padding: 15px;
-    font-size: 30px;
-}
-
-
-h2 {
-    text-align: center;
-
-
-}
-
-.h4 {
-
-    align-items: flex;
-    float: left;
-    padding: 15px;
-    font-size: 12px;
-}
-
-
 nav {
-    background-color: #26979f;
-    border-radius: 10px;
-}
-
-li {
-    list-style-type: none;
-
+    background-image: linear-gradient(to right, #007263, #00e0c2);
+    padding: 1.2rem;
+    width: 100%;
 }
 
 a {
@@ -60,47 +33,96 @@ ul {
     justify-content: right;
 }
 
-
-
-aside {
-    margin-top: 30px;
-    margin-left: 10px;
-    width: 100%;
-
-
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
 
 }
 
-aside figure {
-    float: right;
+li {
+    display: inline-block;
+}
+
+li a:hover {
+    color: #013cff;
+}
+
+a:active {
+    color: #ff9901;
+}
+
+
+div h4 {
+
+    align-items: flex;
+    float: left;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-left: 6%;
+}
+
+
+
+
+h2 {
+    text-align: center;
+
+}
+
+
+figure img {
+    height: 400px;
     margin-right: 4%;
-
-
+    float: right;
+    padding: 5px;
+    border-radius: 10%;
+    border: solid 5px black;
 }
 
-aside figure img {
-    width: 100%;
-}
 
 footer {
     padding: 35px 0;
 
-    background-color: #26979f;
+    background-image: linear-gradient(to right, #007263, #00e0c2);
     color: aliceblue;
     text-align: center;
+    margin-top: 3%;
 
+}
 
+.meio {
+
+    display: flex;
+    float: left;
+    padding: 15px;
+    font-size: 2.2rem;
 }
 
 .sobre {
     text-align: left;
     padding-left: 4%;
     color: #3b3b3b;
+    margin-top: 17%;
+    font-size: 2.1rem;
 }
 
 .eu {
-    border: 50em;
     padding: 3%;
+    font-size: 1rem;
+}
 
-    text-justify: right 20%;
+.name {
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 3rem;
+
+}
+
+.box {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 2%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5%;
 }
